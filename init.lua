@@ -2,6 +2,9 @@
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
+-- Global keybaord
+vim.opt.clipboard = "unnamedplus"
+
 -- Enable line numbers
 vim.opt.number = true
 
